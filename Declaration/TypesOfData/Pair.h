@@ -25,7 +25,17 @@ namespace MyNamespace
             return first_;
         }
 
+        TypeFirst & GetFirst()
+        {
+            return first_;
+        }
+
         TypeSecond const & GetSecond() const
+        {
+            return second_;
+        }
+
+        TypeSecond & GetSecond() 
         {
             return second_;
         }

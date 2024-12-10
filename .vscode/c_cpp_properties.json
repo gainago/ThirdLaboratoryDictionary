@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/Declaration/TypesOfData"
+                "${workspaceFolder}/Declaration/TypesOfData",
+                "${workspaceFolder}/Declaration/Dictionary",
+                "${workspaceFolder}/Declaration/GetHashCodes"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang-18",

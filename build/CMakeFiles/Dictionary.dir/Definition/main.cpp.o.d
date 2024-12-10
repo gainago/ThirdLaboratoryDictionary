@@ -180,5 +180,8 @@ CMakeFiles/Dictionary.dir/Definition/main.cpp.o: \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Sequence/LinkedList.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Dictionary/Dictionary.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/TypesOfData/Pair.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/GetHashCodes/GetHashCodeInt.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Dictionary/PrintDictionary.h
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/GetHashCodes/GetHashCode.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/TypesOfData/MyString.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Dictionary/PrintDictionary.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Functions/SetRandomInt.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Declaration/UnitTests.h

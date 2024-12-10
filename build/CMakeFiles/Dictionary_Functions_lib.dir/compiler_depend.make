@@ -3,6 +3,7 @@
 
 Dictionary_Functions_lib_autogen/timestamp: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/CMakeLists.txt \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
   /usr/bin/cmake \
@@ -66,8 +67,147 @@ Dictionary_Functions_lib_autogen/timestamp: /home/goshagaina/MEPHILabsMyselfThir
 
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp
 
+CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Dictionary/Dictionary.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Sequence/DynamicArray.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Sequence/LinkedList.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/TypesOfData/Pair.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h
+
 CMakeFiles/Dictionary_Functions_lib.dir/Dictionary_Functions_lib_autogen/mocs_compilation.cpp.o: Dictionary_Functions_lib_autogen/mocs_compilation.cpp
 
+
+/usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/features.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/endian.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/13/pstl/pstl_config.h:
+
+/usr/include/c++/13/cstdlib:
+
+/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Sequence/DynamicArray.h:
+
+/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Dictionary/Dictionary.h:
+
+/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Sequence/LinkedList.h:
 
 /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake:
 
@@ -89,7 +229,13 @@ Dictionary_Functions_lib_autogen/mocs_compilation.cpp:
 
 /usr/share/cmake-3.28/Modules/Compiler/Clang-CXX.cmake:
 
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:
 
@@ -97,11 +243,33 @@ Dictionary_Functions_lib_autogen/mocs_compilation.cpp:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
 
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake:
 
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:
+
+/usr/include/time.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake:
 
@@ -113,13 +281,21 @@ Dictionary_Functions_lib_autogen/mocs_compilation.cpp:
 
 /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:
 
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
 /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp:
 
 CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/CMakeLists.txt:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake:
 
@@ -131,15 +307,15 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/TypesOfData/Pair.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake:
-
-/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake:
 
@@ -151,11 +327,17 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake:
 
+/usr/include/stdlib.h:
+
+/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake:
 
@@ -163,11 +345,15 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
 
@@ -178,6 +364,8 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake:
 
 /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake:
 

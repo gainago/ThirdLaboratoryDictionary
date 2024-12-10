@@ -66,8 +66,8 @@ include CMakeFiles/Dictionary_GetHashCodes_lib_autogen_timestamp_deps.dir/compil
 # Include the progress variables for this target.
 include CMakeFiles/Dictionary_GetHashCodes_lib_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/Dictionary_GetHashCodes_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 CMakeFiles/Dictionary_GetHashCodes_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
+CMakeFiles/Dictionary_GetHashCodes_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 
 Dictionary_GetHashCodes_lib_autogen_timestamp_deps: CMakeFiles/Dictionary_GetHashCodes_lib_autogen_timestamp_deps
 Dictionary_GetHashCodes_lib_autogen_timestamp_deps: CMakeFiles/Dictionary_GetHashCodes_lib_autogen_timestamp_deps.dir/build.make

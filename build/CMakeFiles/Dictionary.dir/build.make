@@ -120,6 +120,7 @@ Dictionary: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 Dictionary: /home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0
 Dictionary: libDictionary_Functions_lib.so
 Dictionary: libDictionary_GetHashCodes_lib.so
+Dictionary: libDictionary_UnitTests_lib.so
 Dictionary: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 Dictionary: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 Dictionary: CMakeFiles/Dictionary.dir/link.txt

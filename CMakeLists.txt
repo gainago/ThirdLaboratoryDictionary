@@ -70,6 +70,18 @@ include_directories(
 
 #-------End Library GetHashCodes
 
+#--------Library    UnitTests 
+file(GLOB
+                CPP_UnitTests "${PROJECT_SOURCE_DIR}/Tests/UnitTests/Definition/*.cpp")
+
+add_library(${PROJECT_NAME}_UnitTests_lib   SHARED
+                                    ${CPP_UnitTests})
+include_directories(
+    "${PROJECT_SOURCE_DIR}/Tests/UnitTests/Declaration"
+)
+
+#-------End Library UnitTests
+
 #----------------------------------------- End Create Libraries
 
 file(GLOB CPP_SOURCES "${PROJECT_SOURCE_DIR}/Definition/*.cpp")
@@ -94,3 +106,6 @@ target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_Functions_lib)
 
 
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_GetHashCodes_lib )
+
+
+target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_UnitTests_lib )

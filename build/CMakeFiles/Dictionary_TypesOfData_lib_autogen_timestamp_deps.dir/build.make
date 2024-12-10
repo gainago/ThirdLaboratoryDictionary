@@ -66,8 +66,8 @@ include CMakeFiles/Dictionary_TypesOfData_lib_autogen_timestamp_deps.dir/compile
 # Include the progress variables for this target.
 include CMakeFiles/Dictionary_TypesOfData_lib_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/Dictionary_TypesOfData_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 CMakeFiles/Dictionary_TypesOfData_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
+CMakeFiles/Dictionary_TypesOfData_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 
 Dictionary_TypesOfData_lib_autogen_timestamp_deps: CMakeFiles/Dictionary_TypesOfData_lib_autogen_timestamp_deps
 Dictionary_TypesOfData_lib_autogen_timestamp_deps: CMakeFiles/Dictionary_TypesOfData_lib_autogen_timestamp_deps.dir/build.make

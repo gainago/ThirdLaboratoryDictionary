@@ -1,0 +1,2 @@
+CMakeFiles/Dictionary_UnitTests_lib.dir/Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.o: \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp

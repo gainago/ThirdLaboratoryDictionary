@@ -31,24 +31,6 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 77,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 81,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 86,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
 				"line" : 89,
 				"parent" : 0
 			},
@@ -61,7 +43,31 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 96,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 111,
 				"parent" : 0
 			},
 			{
@@ -72,29 +78,29 @@
 			},
 			{
 				"file" : 2,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"command" : 4,
 				"file" : 2,
 				"line" : 28,
-				"parent" : 8
+				"parent" : 9
 			},
 			{
 				"file" : 1,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
 				"command" : 3,
 				"file" : 1,
 				"line" : 213,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"command" : 2,
 				"file" : 1,
 				"line" : 57,
-				"parent" : 11
+				"parent" : 12
 			},
 			{
 				"command" : 5,
@@ -112,6 +118,12 @@
 				"command" : 5,
 				"file" : 0,
 				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 79,
 				"parent" : 0
 			}
 		]
@@ -151,32 +163,36 @@
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/Dictionary_autogen/include"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 14,
 					"path" : "/home/goshagaina/Qwt/qwt-6.3.0/classincludes"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 14,
 					"path" : "/home/goshagaina/Qwt/qwt-6.3.0/src"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 14,
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Sequence"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 14,
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Dictionary"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 14,
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/GetHashCodes"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 15,
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/TypesOfData"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 16,
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Functions"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Declaration"
 				},
 				{
 					"backtrace" : 3,
@@ -235,6 +251,10 @@
 			"id" : "Dictionary_GetHashCodes_lib::@6890427a1f51a3e7e1df"
 		},
 		{
+			"backtrace" : 7,
+			"id" : "Dictionary_UnitTests_lib::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "Dictionary_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -285,12 +305,17 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 12,
+				"backtrace" : 7,
+				"fragment" : "libDictionary_UnitTests_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 12,
+				"backtrace" : 13,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13",
 				"role" : "libraries"
 			}

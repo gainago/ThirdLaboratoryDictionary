@@ -161,6 +161,20 @@ public:
         return current->data_;
     }
 
+    T & Get(int index)
+    {
+        Node *current = this->head_;
+        if (index < 0 || index >= this->size)
+        {
+            throw "Invalid argument";
+        }
+        for (int i = 0; i < index; i++)
+        {
+            current = current->pNext_;
+        }
+        return current->data_;
+    }
+
     LinkedList<T>* GetSubList(int startIndex, int endIndex)
     {
         if (startIndex < 0 || endIndex < 0 || endIndex >= this->size || endIndex < startIndex)
@@ -225,6 +239,58 @@ public:
         newElement->pNext_ = current->pNext_;
         current->pNext_ = newElement;
         this->size++;
+    }
+
+    void Remove(int const index)
+    {
+        if (index < 0 || index >= this->size)
+        {
+            throw "Invalid argument";
+        }
+
+        Node *deleteElement;
+        
+
+        if(index == 0){
+            deleteElement = head_;
+            head_ = head_->pNext_;
+            delete deleteElement;
+            size--;
+            return;
+        }
+
+        if(index == (this->size - 1))
+        {
+            Node *privioudLast = this->head_;
+            for(int i = 0; i < this->size - 2; i++){
+                Node *privioudLast = privioudLast->pNext_;
+            }
+
+            deleteElement = privioudLast->pNext_;
+            delete deleteElement;
+            size--;
+            privioudLast->pNext_ = nullptr;
+            return;
+        }
+
+        
+        Node *privioudDelete = this->head_;
+
+        for (int i = 0; i < index - 1; i++)
+        {
+            privioudDelete = privioudDelete->pNext_;
+        }
+        
+        deleteElement = privioudDelete->pNext_;
+
+        privioudDelete->pNext_ = deleteElement->pNext_;
+
+        delete deleteElement;
+
+        size--;
+        return;
+
+        
     }
 
     LinkedList<T>* Concat(LinkedList<T> &list)

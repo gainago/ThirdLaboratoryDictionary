@@ -252,6 +252,15 @@
         this->str_[length_] = '\0';
     }
 
+    char MyString::Get(int index) const
+    {
+        if(index >= this->GetLength() || index < 0){
+            throw "invalid index";
+        }
+
+        return this->str_[index];
+    }
+
     MyString& MyString::operator=(const MyString& other)
     {
         if(this->str_ == other.str_)

@@ -156,6 +156,19 @@ Dictionary_GetHashCodes_lib/fast:
 .PHONY : Dictionary_GetHashCodes_lib/fast
 
 #=============================================================================
+# Target rules for targets named Dictionary_UnitTests_lib
+
+# Build rule for target.
+Dictionary_UnitTests_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dictionary_UnitTests_lib
+.PHONY : Dictionary_UnitTests_lib
+
+# fast build rule for target.
+Dictionary_UnitTests_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib.dir/build.make CMakeFiles/Dictionary_UnitTests_lib.dir/build
+.PHONY : Dictionary_UnitTests_lib/fast
+
+#=============================================================================
 # Target rules for targets named Dictionary
 
 # Build rule for target.
@@ -247,6 +260,32 @@ Dictionary_GetHashCodes_lib_autogen/fast:
 .PHONY : Dictionary_GetHashCodes_lib_autogen/fast
 
 #=============================================================================
+# Target rules for targets named Dictionary_UnitTests_lib_autogen_timestamp_deps
+
+# Build rule for target.
+Dictionary_UnitTests_lib_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dictionary_UnitTests_lib_autogen_timestamp_deps
+.PHONY : Dictionary_UnitTests_lib_autogen_timestamp_deps
+
+# fast build rule for target.
+Dictionary_UnitTests_lib_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib_autogen_timestamp_deps.dir/build.make CMakeFiles/Dictionary_UnitTests_lib_autogen_timestamp_deps.dir/build
+.PHONY : Dictionary_UnitTests_lib_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named Dictionary_UnitTests_lib_autogen
+
+# Build rule for target.
+Dictionary_UnitTests_lib_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dictionary_UnitTests_lib_autogen
+.PHONY : Dictionary_UnitTests_lib_autogen
+
+# fast build rule for target.
+Dictionary_UnitTests_lib_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib_autogen.dir/build.make CMakeFiles/Dictionary_UnitTests_lib_autogen.dir/build
+.PHONY : Dictionary_UnitTests_lib_autogen/fast
+
+#=============================================================================
 # Target rules for targets named Dictionary_autogen_timestamp_deps
 
 # Build rule for target.
@@ -296,29 +335,53 @@ Definition/Functions/Abs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_Functions_lib.dir/build.make CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.s
 .PHONY : Definition/Functions/Abs.cpp.s
 
-Definition/GetHashCodes/GetHashCodeInt.o: Definition/GetHashCodes/GetHashCodeInt.cpp.o
-.PHONY : Definition/GetHashCodes/GetHashCodeInt.o
+Definition/Functions/SetRandomInt.o: Definition/Functions/SetRandomInt.cpp.o
+.PHONY : Definition/Functions/SetRandomInt.o
 
 # target to build an object file
-Definition/GetHashCodes/GetHashCodeInt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_GetHashCodes_lib.dir/build.make CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCodeInt.cpp.o
-.PHONY : Definition/GetHashCodes/GetHashCodeInt.cpp.o
+Definition/Functions/SetRandomInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_Functions_lib.dir/build.make CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o
+.PHONY : Definition/Functions/SetRandomInt.cpp.o
 
-Definition/GetHashCodes/GetHashCodeInt.i: Definition/GetHashCodes/GetHashCodeInt.cpp.i
-.PHONY : Definition/GetHashCodes/GetHashCodeInt.i
+Definition/Functions/SetRandomInt.i: Definition/Functions/SetRandomInt.cpp.i
+.PHONY : Definition/Functions/SetRandomInt.i
 
 # target to preprocess a source file
-Definition/GetHashCodes/GetHashCodeInt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_GetHashCodes_lib.dir/build.make CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCodeInt.cpp.i
-.PHONY : Definition/GetHashCodes/GetHashCodeInt.cpp.i
+Definition/Functions/SetRandomInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_Functions_lib.dir/build.make CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.i
+.PHONY : Definition/Functions/SetRandomInt.cpp.i
 
-Definition/GetHashCodes/GetHashCodeInt.s: Definition/GetHashCodes/GetHashCodeInt.cpp.s
-.PHONY : Definition/GetHashCodes/GetHashCodeInt.s
+Definition/Functions/SetRandomInt.s: Definition/Functions/SetRandomInt.cpp.s
+.PHONY : Definition/Functions/SetRandomInt.s
 
 # target to generate assembly for a file
-Definition/GetHashCodes/GetHashCodeInt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_GetHashCodes_lib.dir/build.make CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCodeInt.cpp.s
-.PHONY : Definition/GetHashCodes/GetHashCodeInt.cpp.s
+Definition/Functions/SetRandomInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_Functions_lib.dir/build.make CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.s
+.PHONY : Definition/Functions/SetRandomInt.cpp.s
+
+Definition/GetHashCodes/GetHashCode.o: Definition/GetHashCodes/GetHashCode.cpp.o
+.PHONY : Definition/GetHashCodes/GetHashCode.o
+
+# target to build an object file
+Definition/GetHashCodes/GetHashCode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_GetHashCodes_lib.dir/build.make CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o
+.PHONY : Definition/GetHashCodes/GetHashCode.cpp.o
+
+Definition/GetHashCodes/GetHashCode.i: Definition/GetHashCodes/GetHashCode.cpp.i
+.PHONY : Definition/GetHashCodes/GetHashCode.i
+
+# target to preprocess a source file
+Definition/GetHashCodes/GetHashCode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_GetHashCodes_lib.dir/build.make CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.i
+.PHONY : Definition/GetHashCodes/GetHashCode.cpp.i
+
+Definition/GetHashCodes/GetHashCode.s: Definition/GetHashCodes/GetHashCode.cpp.s
+.PHONY : Definition/GetHashCodes/GetHashCode.s
+
+# target to generate assembly for a file
+Definition/GetHashCodes/GetHashCode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_GetHashCodes_lib.dir/build.make CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.s
+.PHONY : Definition/GetHashCodes/GetHashCode.cpp.s
 
 Definition/TypesOfData/Comporators.o: Definition/TypesOfData/Comporators.cpp.o
 .PHONY : Definition/TypesOfData/Comporators.o
@@ -488,6 +551,30 @@ Dictionary_TypesOfData_lib_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_TypesOfData_lib.dir/build.make CMakeFiles/Dictionary_TypesOfData_lib.dir/Dictionary_TypesOfData_lib_autogen/mocs_compilation.cpp.s
 .PHONY : Dictionary_TypesOfData_lib_autogen/mocs_compilation.cpp.s
 
+Dictionary_UnitTests_lib_autogen/mocs_compilation.o: Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.o
+.PHONY : Dictionary_UnitTests_lib_autogen/mocs_compilation.o
+
+# target to build an object file
+Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib.dir/build.make CMakeFiles/Dictionary_UnitTests_lib.dir/Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.o
+.PHONY : Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.o
+
+Dictionary_UnitTests_lib_autogen/mocs_compilation.i: Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.i
+.PHONY : Dictionary_UnitTests_lib_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib.dir/build.make CMakeFiles/Dictionary_UnitTests_lib.dir/Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.i
+.PHONY : Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.i
+
+Dictionary_UnitTests_lib_autogen/mocs_compilation.s: Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.s
+.PHONY : Dictionary_UnitTests_lib_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib.dir/build.make CMakeFiles/Dictionary_UnitTests_lib.dir/Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.s
+.PHONY : Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp.s
+
 Dictionary_autogen/mocs_compilation.o: Dictionary_autogen/mocs_compilation.cpp.o
 .PHONY : Dictionary_autogen/mocs_compilation.o
 
@@ -512,6 +599,30 @@ Dictionary_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary.dir/build.make CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.s
 .PHONY : Dictionary_autogen/mocs_compilation.cpp.s
 
+Tests/UnitTests/Definition/UnitTests.o: Tests/UnitTests/Definition/UnitTests.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTests.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib.dir/build.make CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.o
+
+Tests/UnitTests/Definition/UnitTests.i: Tests/UnitTests/Definition/UnitTests.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTests.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib.dir/build.make CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.i
+
+Tests/UnitTests/Definition/UnitTests.s: Tests/UnitTests/Definition/UnitTests.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTests.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dictionary_UnitTests_lib.dir/build.make CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -526,18 +637,24 @@ help:
 	@echo "... Dictionary_GetHashCodes_lib_autogen_timestamp_deps"
 	@echo "... Dictionary_TypesOfData_lib_autogen"
 	@echo "... Dictionary_TypesOfData_lib_autogen_timestamp_deps"
+	@echo "... Dictionary_UnitTests_lib_autogen"
+	@echo "... Dictionary_UnitTests_lib_autogen_timestamp_deps"
 	@echo "... Dictionary_autogen"
 	@echo "... Dictionary_autogen_timestamp_deps"
 	@echo "... Dictionary"
 	@echo "... Dictionary_Functions_lib"
 	@echo "... Dictionary_GetHashCodes_lib"
 	@echo "... Dictionary_TypesOfData_lib"
+	@echo "... Dictionary_UnitTests_lib"
 	@echo "... Definition/Functions/Abs.o"
 	@echo "... Definition/Functions/Abs.i"
 	@echo "... Definition/Functions/Abs.s"
-	@echo "... Definition/GetHashCodes/GetHashCodeInt.o"
-	@echo "... Definition/GetHashCodes/GetHashCodeInt.i"
-	@echo "... Definition/GetHashCodes/GetHashCodeInt.s"
+	@echo "... Definition/Functions/SetRandomInt.o"
+	@echo "... Definition/Functions/SetRandomInt.i"
+	@echo "... Definition/Functions/SetRandomInt.s"
+	@echo "... Definition/GetHashCodes/GetHashCode.o"
+	@echo "... Definition/GetHashCodes/GetHashCode.i"
+	@echo "... Definition/GetHashCodes/GetHashCode.s"
 	@echo "... Definition/TypesOfData/Comporators.o"
 	@echo "... Definition/TypesOfData/Comporators.i"
 	@echo "... Definition/TypesOfData/Comporators.s"
@@ -559,9 +676,15 @@ help:
 	@echo "... Dictionary_TypesOfData_lib_autogen/mocs_compilation.o"
 	@echo "... Dictionary_TypesOfData_lib_autogen/mocs_compilation.i"
 	@echo "... Dictionary_TypesOfData_lib_autogen/mocs_compilation.s"
+	@echo "... Dictionary_UnitTests_lib_autogen/mocs_compilation.o"
+	@echo "... Dictionary_UnitTests_lib_autogen/mocs_compilation.i"
+	@echo "... Dictionary_UnitTests_lib_autogen/mocs_compilation.s"
 	@echo "... Dictionary_autogen/mocs_compilation.o"
 	@echo "... Dictionary_autogen/mocs_compilation.i"
 	@echo "... Dictionary_autogen/mocs_compilation.s"
+	@echo "... Tests/UnitTests/Definition/UnitTests.o"
+	@echo "... Tests/UnitTests/Definition/UnitTests.i"
+	@echo "... Tests/UnitTests/Definition/UnitTests.s"
 .PHONY : help
 
 

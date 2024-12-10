@@ -52,6 +52,8 @@ public:
 
     int GetLength() const;
 
+    char Get(int index) const;
+
     bool operator==(const MyString& other) const;
 
     bool operator!=(const MyString& other) const;

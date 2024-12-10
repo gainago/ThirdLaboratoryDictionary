@@ -67,11 +67,12 @@ include CMakeFiles/Dictionary_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/Dictionary_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/Dictionary_autogen_timestamp_deps: libDictionary_TypesOfData_lib.so
-CMakeFiles/Dictionary_autogen_timestamp_deps: libDictionary_GetHashCodes_lib.so
-CMakeFiles/Dictionary_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 CMakeFiles/Dictionary_autogen_timestamp_deps: libDictionary_Functions_lib.so
-CMakeFiles/Dictionary_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
+CMakeFiles/Dictionary_autogen_timestamp_deps: libDictionary_UnitTests_lib.so
+CMakeFiles/Dictionary_autogen_timestamp_deps: libDictionary_GetHashCodes_lib.so
 CMakeFiles/Dictionary_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
+CMakeFiles/Dictionary_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
+CMakeFiles/Dictionary_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 
 Dictionary_autogen_timestamp_deps: CMakeFiles/Dictionary_autogen_timestamp_deps
 Dictionary_autogen_timestamp_deps: CMakeFiles/Dictionary_autogen_timestamp_deps.dir/build.make

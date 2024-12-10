@@ -9,7 +9,7 @@ void PrintDictionary(Dictionary<TypeKey, TypeValue> & dictionary)
 {
     for(auto it = dictionary.begin(); it != dictionary.end(); ++it)
     {
-        std::cout << (*it).GetSecond() << "\t";
+        std::cout << it.GetArrayIndex()  <<". < " << (*it).GetFirst() << ", " <<  (*it).GetSecond() << ">" << "\n";
     }
     std::cout << std::endl;
 }
