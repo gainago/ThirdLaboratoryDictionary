@@ -1,7 +1,6 @@
 #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
 
-
 template <typename T> class LinkedList
 {
 private:
@@ -249,6 +248,7 @@ public:
         }
 
         Node *deleteElement;
+
         
 
         if(index == 0){
@@ -263,7 +263,7 @@ public:
         {
             Node *privioudLast = this->head_;
             for(int i = 0; i < this->size - 2; i++){
-                Node *privioudLast = privioudLast->pNext_;
+                privioudLast = privioudLast->pNext_;
             }
 
             deleteElement = privioudLast->pNext_;

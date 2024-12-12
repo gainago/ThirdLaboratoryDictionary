@@ -31,43 +31,43 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 89,
+				"line" : 90,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 93,
+				"line" : 94,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 98,
+				"line" : 99,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 101,
+				"line" : 106,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 105,
+				"line" : 109,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 108,
+				"line" : 112,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 111,
+				"line" : 114,
 				"parent" : 0
 			},
 			{
@@ -111,19 +111,19 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 44,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 55,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 79,
+				"line" : 80,
 				"parent" : 0
 			}
 		]
@@ -134,7 +134,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -O0 -g -std=gnu++17"
+					"fragment" : " -O0 -ggdb -g -std=gnu++17"
 				},
 				{
 					"backtrace" : 3,
@@ -181,6 +181,14 @@
 				{
 					"backtrace" : 14,
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/GetHashCodes"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/LoadTests/Declaration"
 				},
 				{
 					"backtrace" : 15,
@@ -243,15 +251,15 @@
 			"id" : "Dictionary_TypesOfData_lib::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 5,
+			"backtrace" : 4,
 			"id" : "Dictionary_Functions_lib::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 6,
+			"backtrace" : 5,
 			"id" : "Dictionary_GetHashCodes_lib::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 7,
+			"backtrace" : 6,
 			"id" : "Dictionary_UnitTests_lib::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -268,7 +276,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O0 -g",
+				"fragment" : "-O0 -ggdb -g",
 				"role" : "flags"
 			},
 			{
@@ -276,7 +284,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build:/home/goshagaina/Qwt/qwt-6.3.0/lib",
+				"fragment" : "-Wl,-rpath,/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build:/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/LoadTests/build",
 				"role" : "libraries"
 			},
 			{
@@ -291,22 +299,22 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
 				"fragment" : "libDictionary_Functions_lib.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 5,
 				"fragment" : "libDictionary_GetHashCodes_lib.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 7,
+				"backtrace" : 6,
 				"fragment" : "libDictionary_UnitTests_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/LoadTests/build/libloadTests.so",
 				"role" : "libraries"
 			},
 			{

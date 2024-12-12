@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/Declaration/TypesOfData",
                 "${workspaceFolder}/Declaration/Dictionary",
-                "${workspaceFolder}/Declaration/GetHashCodes"
+                "${workspaceFolder}/Declaration/GetHashCodes",
+                "${workspaceFolder}/Plot/Declaration"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang-18",

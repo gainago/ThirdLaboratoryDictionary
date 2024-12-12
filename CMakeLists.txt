@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -ggdb")
 
 #--------------------------------- End Set Flags
 
@@ -31,7 +31,8 @@ include_directories(
 "${PROJECT_SOURCE_DIR}/Declaration/Sequence"
 "${PROJECT_SOURCE_DIR}/Declaration/Dictionary"
 "${PROJECT_SOURCE_DIR}/Declaration/GetHashCodes"
-
+"${PROJECT_SOURCE_DIR}/Tests"
+"${PROJECT_SOURCE_DIR}/Tests/LoadTests/Declaration"
 )
 #------------------------------------Create Libraries
 
@@ -98,8 +99,8 @@ target_link_libraries(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME} Qt${QT_VERSION_MAJOR}::Widgets)
 
 
-target_link_libraries(${PROJECT_NAME}
-                                         "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0") #Замените на свой путь
+#target_link_libraries(${PROJECT_NAME}
+#                                        "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0") #Замените на свой путь
 
                                          
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_Functions_lib)
@@ -109,3 +110,5 @@ target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_GetHashCodes_lib )
 
 
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_UnitTests_lib )
+
+target_link_libraries(${PROJECT_NAME} "${PROJECT_SOURCE_DIR}/Tests/LoadTests/build/libloadTests.so")

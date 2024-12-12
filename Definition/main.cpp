@@ -1,3 +1,5 @@
+#include <QApplication>
+
 #include "PrintArray.h"
 #include "LinkedList.h"
 #include "DynamicArray.h"
@@ -6,13 +8,14 @@
 #include "PrintDictionary.h"
 #include "SetRandomInt.h"
 #include "UnitTests.h"
+#include "LoadTestsInt.h"
 
 int main(int argc, char** argv)
 {
 
-    int arr[4] = {0, -1, 100, 234}; 
+    
 
-    ConstructionTests();
+    /*ConstructionTests();
 
     AddTestsMyString();
 
@@ -26,8 +29,10 @@ int main(int argc, char** argv)
 
     IteratorTestsInt();
 
-    IteratorTestsMyString();
+    IteratorTestsMyString();*/
 
+    QApplication app(argc, argv);
+    LoadTestsInt();
+    return app.exec();
 
-    return 0;
 }
