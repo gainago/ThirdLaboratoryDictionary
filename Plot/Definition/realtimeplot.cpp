@@ -69,7 +69,7 @@ RealTimePlot::RealTimePlot(int countObjects
 
 void RealTimePlot::AddData(QVector<QPair<QPointF, bool> > newData)
 {
-    std::cout << "newData.size = "<<  newData.size() << std::endl << "vectorData.size = " << vectorData_.size() << std::endl;
+    //std::cout << "newData.size = "<<  newData.size() << std::endl << "vectorData.size = " << vectorData_.size() << std::endl;
     if(IsEndInput_){
         throw "input has been ended";
     }
@@ -85,14 +85,14 @@ void RealTimePlot::AddData(QVector<QPair<QPointF, bool> > newData)
     }
 }
 
-// RealTimePlot::~RealTimePlot()
-// {
-//     for(int i = 0; i < vectorCurve_.size(); i++){
-//         delete vectorCurve_[i];
-//     }
+RealTimePlot::~RealTimePlot()
+{
+    for(int i = 0; i < vectorCurve_.size(); i++){
+        delete vectorCurve_[i];
+    }
 
-//     vectorCurve_.resize(0);
-// }
+    vectorCurve_.resize(0);
+}
 
 void RealTimePlot::EndInput()
 {
@@ -123,9 +123,9 @@ void RealTimePlot::EndInput()
             }
         }
     }
-    for(int i = 0; i < vectorData_[0].size(); i++){
-        std::cout << "time " << i << ":= " << vectorData_[0][i].ry() << "\n";
-    }
+    // for(int i = 0; i < vectorData_[0].size(); i++){
+    //     std::cout << "time " << i << ":= " << vectorData_[0][i].ry() << "\n";
+    // }
     for(int i = 0; i < vectorCurve_.size(); i++){
         vectorCurve_[i]->setSamples(vectorData_[i]);
         vectorCurve_[i]->attach(plot_);

@@ -1,4 +1,3 @@
-#include <QApplication>
 
 #include "PrintArray.h"
 #include "LinkedList.h"
@@ -31,8 +30,7 @@ int main(int argc, char** argv)
 
     IteratorTestsMyString();*/
 
-    QApplication app(argc, argv);
-    LoadTestsInt();
-    return app.exec();
+    LoadTestsInt(argc, argv);
+    
 
 }

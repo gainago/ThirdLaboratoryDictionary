@@ -26,7 +26,7 @@ public:
                  , QString title);
     void AddData(QVector<QPair<QPointF, bool> > newData);
     void EndInput();
-    //~RealTimePlot();
+    ~RealTimePlot();
 
 
 private:

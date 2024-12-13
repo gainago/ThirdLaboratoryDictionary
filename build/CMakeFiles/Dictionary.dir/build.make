@@ -69,31 +69,10 @@ include CMakeFiles/Dictionary.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Dictionary.dir/flags.make
 
-Dictionary_autogen/timestamp: /usr/lib/qt5/bin/moc
-Dictionary_autogen/timestamp: /usr/lib/qt5/bin/uic
-Dictionary_autogen/timestamp: CMakeFiles/Dictionary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Dictionary"
-	/usr/bin/cmake -E cmake_autogen /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles/Dictionary_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/Dictionary_autogen/timestamp
-
-CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o: CMakeFiles/Dictionary.dir/flags.make
-CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o: Dictionary_autogen/mocs_compilation.cpp
-CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o: CMakeFiles/Dictionary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/Dictionary_autogen/mocs_compilation.cpp
-
-CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/Dictionary_autogen/mocs_compilation.cpp > CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.i
-
-CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/Dictionary_autogen/mocs_compilation.cpp -o CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.s
-
 CMakeFiles/Dictionary.dir/Definition/main.cpp.o: CMakeFiles/Dictionary.dir/flags.make
 CMakeFiles/Dictionary.dir/Definition/main.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp
 CMakeFiles/Dictionary.dir/Definition/main.cpp.o: CMakeFiles/Dictionary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Dictionary.dir/Definition/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dictionary.dir/Definition/main.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary.dir/Definition/main.cpp.o -MF CMakeFiles/Dictionary.dir/Definition/main.cpp.o.d -o CMakeFiles/Dictionary.dir/Definition/main.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp
 
 CMakeFiles/Dictionary.dir/Definition/main.cpp.i: cmake_force
@@ -106,25 +85,20 @@ CMakeFiles/Dictionary.dir/Definition/main.cpp.s: cmake_force
 
 # Object files for target Dictionary
 Dictionary_OBJECTS = \
-"CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Dictionary.dir/Definition/main.cpp.o"
 
 # External object files for target Dictionary
 Dictionary_EXTERNAL_OBJECTS =
 
-Dictionary: CMakeFiles/Dictionary.dir/Dictionary_autogen/mocs_compilation.cpp.o
 Dictionary: CMakeFiles/Dictionary.dir/Definition/main.cpp.o
 Dictionary: CMakeFiles/Dictionary.dir/build.make
 Dictionary: libDictionary_TypesOfData_lib.so
-Dictionary: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 Dictionary: libDictionary_Functions_lib.so
 Dictionary: libDictionary_GetHashCodes_lib.so
 Dictionary: libDictionary_UnitTests_lib.so
 Dictionary: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/LoadTests/build/libloadTests.so
-Dictionary: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
-Dictionary: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 Dictionary: CMakeFiles/Dictionary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Dictionary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Dictionary"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dictionary.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,7 +109,7 @@ CMakeFiles/Dictionary.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/Dictionary.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/Dictionary.dir/clean
 
-CMakeFiles/Dictionary.dir/depend: Dictionary_autogen/timestamp
+CMakeFiles/Dictionary.dir/depend:
 	cd /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles/Dictionary.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Dictionary.dir/depend
 

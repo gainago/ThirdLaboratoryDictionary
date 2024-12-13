@@ -3,6 +3,7 @@
 #include <QPointF>
 #include <QPair>
 #include <chrono>
+#include <QApplication>
 
 #include "Dictionary.h"
 #include "GetHashCode.h"
@@ -10,8 +11,10 @@
 #include "SetRandomInt.h"
 
 
-void LoadTestsInt()
+int LoadTestsInt(int argc, char** argv)
 {
+    QApplication app(argc, argv);
+
     QVector<QString> names;
     names.append("Append");
     names.append("Get");
@@ -22,11 +25,13 @@ void LoadTestsInt()
     colors.append("blue");
     colors.append("magenta");
 
-    RealTimePlot loadTestsPlot(3, names, colors, "LoadTestsDictionaryInt");
+    RealTimePlot* loadTestsPlot = new RealTimePlot(3, names, colors, "LoadTestsDictionaryInt");
 
     QVector<QPair<QPointF, bool> > newData(3);
 
-    for(int i = 1000; i <=1000000; i+=50000){
+    int smootingFactor = 600; 
+
+    for(int i = 50000; i <=1000000; i+=50000){
         Dictionary<int, int> dictionary(GetHashCodeInt);
         /*auto start = std::chrono::high_resolution_clock::now();
         SetRandomInt(i, dictionary);
@@ -42,7 +47,7 @@ void LoadTestsInt()
         {
         auto start = std::chrono::high_resolution_clock::now();
 
-        for(int j = -1; j >=-300; j--){
+        for(int j = -1; j >=-smootingFactor; j--){
             dictionary.Add(j, i);
         }        
         
@@ -53,7 +58,7 @@ void LoadTestsInt()
 
         {
         auto start = std::chrono::high_resolution_clock::now();   
-        for(int j = -1; j >=-300; j--){
+        for(int j = -1; j >=-smootingFactor; j--){
             dictionary.Get(j);
         }        
         dictionary.Get(-1);
@@ -64,7 +69,7 @@ void LoadTestsInt()
 
         {
         auto start = std::chrono::high_resolution_clock::now();
-        for(int j = -1; j >=-300; j--){
+        for(int j = -1; j >=-smootingFactor; j--){
             dictionary.Remove(j);
         }            
         
@@ -77,12 +82,12 @@ void LoadTestsInt()
         std::cout << "time Append = " << timeGet << "\n";
         std::cout << "time Append = " << timeRemove << "\n";*/
 
-        newData[0] = QPair<QPointF, bool>(QPointF(i, timeAppend) , true);
-        newData[1] = QPair<QPointF, bool>(QPointF(i, timeGet), true);
-        newData[2] = QPair<QPointF, bool>(QPointF(i, timeRemove), true);
+        newData[0] = QPair<QPointF, bool>(QPointF(i, timeAppend / smootingFactor) , true);
+        newData[1] = QPair<QPointF, bool>(QPointF(i, timeGet / smootingFactor), true);
+        newData[2] = QPair<QPointF, bool>(QPointF(i, timeRemove / smootingFactor), true);
 
         try{
-        loadTestsPlot.AddData(newData);
+        loadTestsPlot->AddData(newData);
         }
         catch(const char* message)
         {
@@ -90,6 +95,7 @@ void LoadTestsInt()
         }
     }
 
-    loadTestsPlot.EndInput();
+    loadTestsPlot->EndInput();
+    return app.exec();
 
 }

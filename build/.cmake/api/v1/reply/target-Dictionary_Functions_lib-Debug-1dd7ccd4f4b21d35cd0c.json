@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libDictionary_UnitTests_lib.so"
+			"path" : "libDictionary_Functions_lib.so"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 78,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
@@ -66,23 +66,11 @@
 			"defines" : 
 			[
 				{
-					"define" : "Dictionary_UnitTests_lib_EXPORTS"
+					"define" : "Dictionary_Functions_lib_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
-				{
-					"backtrace" : 0,
-					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/Dictionary_UnitTests_lib_autogen/include"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "/home/goshagaina/Qwt/qwt-6.3.0/classincludes"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "/home/goshagaina/Qwt/qwt-6.3.0/src"
-				},
 				{
 					"backtrace" : 2,
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Sequence"
@@ -132,17 +120,7 @@
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"id" : "Dictionary_UnitTests_lib_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "Dictionary_UnitTests_lib_autogen::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "Dictionary_UnitTests_lib::@6890427a1f51a3e7e1df",
+	"id" : "Dictionary_Functions_lib::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -154,8 +132,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Dictionary_UnitTests_lib",
-	"nameOnDisk" : "libDictionary_UnitTests_lib.so",
+	"name" : "Dictionary_Functions_lib",
+	"nameOnDisk" : "libDictionary_Functions_lib.so",
 	"paths" : 
 	{
 		"build" : ".",
@@ -170,48 +148,21 @@
 				0,
 				1
 			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
-				2
-			]
-		},
-		{
-			"name" : "CMake Rules",
-			"sourceIndexes" : 
-			[
-				3
-			]
 		}
 	],
 	"sources" : 
 	[
 		{
-			"backtrace" : 0,
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/Dictionary_UnitTests_lib_autogen/mocs_compilation.cpp",
+			"path" : "Definition/Functions/Abs.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Tests/UnitTests/Definition/UnitTests.cpp",
+			"path" : "Definition/Functions/SetRandomInt.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Dictionary_UnitTests_lib_autogen/timestamp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Dictionary_UnitTests_lib_autogen/timestamp.rule",
-			"sourceGroupIndex" : 2
 		}
 	],
 	"type" : "SHARED_LIBRARY"
