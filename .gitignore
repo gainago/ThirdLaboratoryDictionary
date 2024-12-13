@@ -229,3 +229,5 @@ Plot/build/plot_lib_autogen/include/moc_ScrollZoomer.cpp
 Plot/build/plot_lib_autogen/include/moc_ScrollZoomer.cpp.d
 .vscode/c_cpp_properties.json
 .vscode/settings.json
+.vscode
+.cache
