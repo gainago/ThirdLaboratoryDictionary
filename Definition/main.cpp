@@ -8,6 +8,7 @@
 #include "SetRandomInt.h"
 #include "UnitTests.h"
 #include "LoadTestsInt.h"
+#include "StartUI.h"
 
 int main(int argc, char** argv)
 {
@@ -31,6 +32,7 @@ int main(int argc, char** argv)
     IteratorTestsMyString();*/
 
     LoadTestsInt(argc, argv);
+    return StartUI(argc, argv);
     
 
 }

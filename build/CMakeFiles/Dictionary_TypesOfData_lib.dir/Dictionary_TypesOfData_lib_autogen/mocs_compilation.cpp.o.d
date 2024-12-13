@@ -1,2 +1,0 @@
-CMakeFiles/Dictionary_TypesOfData_lib.dir/Dictionary_TypesOfData_lib_autogen/mocs_compilation.cpp.o: \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/Dictionary_TypesOfData_lib_autogen/mocs_compilation.cpp

@@ -33,6 +33,7 @@ include_directories(
 "${PROJECT_SOURCE_DIR}/Declaration/GetHashCodes"
 "${PROJECT_SOURCE_DIR}/Tests"
 "${PROJECT_SOURCE_DIR}/Tests/LoadTests/Declaration"
+"${PROJECT_SOURCE_DIR}/Qt"
 )
 #------------------------------------Create Libraries
 
@@ -112,3 +113,5 @@ target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_GetHashCodes_lib )
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_UnitTests_lib )
 
 target_link_libraries(${PROJECT_NAME} "${PROJECT_SOURCE_DIR}/Tests/LoadTests/build/libloadTests.so")
+
+target_link_libraries(${PROJECT_NAME} "${PROJECT_SOURCE_DIR}/Qt/build/libGUI_Third_Laboratory.so")
