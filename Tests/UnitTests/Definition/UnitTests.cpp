@@ -70,7 +70,7 @@ void AddTestsInt()
         dictionaryInt.Add(tmpValue, tmpValue);
     }
 
-    for(auto it = dictionaryInt.begin(); it!= dictionaryInt.end(); ++it){ //пытаемся вставить елементы 
+    for(auto it = dictionaryInt.Begin(); it!= dictionaryInt.End(); ++it){ //пытаемся вставить елементы 
                                                                     //с уже существующии ключами
         try{
             dictionaryInt.Add((*it).GetFirst(), rand());
@@ -175,7 +175,7 @@ void IteratorTestsInt()
         dictionary.Add(arr[i], i);
     }
 
-    for(auto it = dictionary.begin(); it != dictionary.end(); ++it){ // проверяем заполнились ли все значения 
+    for(auto it = dictionary.Begin(); it != dictionary.End(); ++it){ // проверяем заполнились ли все значения 
         if((*it).GetSecond() != 13 || (*it).GetSecond() != 69 || (*it).GetSecond() != 77 
             || (*it).GetSecond() != -1 || (*it).GetSecond() != 0){
 
@@ -185,7 +185,7 @@ void IteratorTestsInt()
         }
     }
 
-    for(auto it = dictionary.begin(); it != dictionary.end(); ++it){
+    for(auto it = dictionary.Begin(); it != dictionary.End(); ++it){
         
         (*it).SetSecond(-800);
     }
@@ -203,15 +203,61 @@ void IteratorTestsMyString()
     for(int i = 0; i < 5; i++){
         dictionaryMyString.Add(arrayString[i], i);
     }
-    assert(dictionaryMyString.begin() != dictionaryMyString.end());
+    assert(dictionaryMyString.Begin() != dictionaryMyString.End());
 
-    for(auto it = dictionaryMyString.begin(); it != dictionaryMyString.end(); ++it){
+    for(auto it = dictionaryMyString.Begin(); it != dictionaryMyString.End(); ++it){
         
         (*it).SetSecond(337);
     }
 
     for(int i = 0; i < 5; i++){
         assert(dictionaryMyString.Get(arrayString[i]) == 337);
+    }
+    
+}
+
+void IteratorTestsErase()
+{
+    {
+        MyString arrayString[5] = {"Ivan", "Ivanovich", "Ivanov", "2005", ""};
+        Dictionary<MyString, int> dictionaryMyString(&GetHashCodeMyString, 0.12, 2, 0);
+        for(int i = 0; i < 5; i++){
+            dictionaryMyString.Add(arrayString[i], i);
+        }
+
+        Dictionary<MyString, int>::Iterator it = dictionaryMyString.Begin();
+        ++it;
+        ++it;
+        MyString deletedStr = (*it).GetFirst();
+        dictionaryMyString.Erase(it);
+        
+        //PrintDictionary(dictionaryMyString);
+        assert(dictionaryMyString.GetLength() == 4);
+
+        for(auto itChech = dictionaryMyString.Begin(); itChech != dictionaryMyString.End(); ++itChech){
+            assert((*itChech).GetFirst() != deletedStr);   
+        }
+    }
+    {
+        MyString arrayString[6] = {"Ivan", "Ivanovich", "Ivanov", "2005", "", "Gosha"};
+        Dictionary<int, MyString> dictionaryMyString(&GetHashCodeInt, 0.12, 2, 0);
+        for(int i = 0; i < 6; i++){
+            dictionaryMyString.Add(i, arrayString[i]);
+        }
+
+        for(auto it = dictionaryMyString.Begin(); it != dictionaryMyString.End(); ++it){
+            if((*it).GetSecond() == "Ivanovich"){
+                dictionaryMyString.Erase(it);
+            }
+        }
+
+        assert(dictionaryMyString.GetLength() == 5);
+
+        for(auto it = dictionaryMyString.Begin(); it != dictionaryMyString.End(); ++it){
+            if((*it).GetSecond() == "Ivanovich"){
+                assert(-1);
+            }
+        }
     }
     
 }

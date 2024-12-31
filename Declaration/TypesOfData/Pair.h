@@ -9,7 +9,7 @@ namespace MyNamespace
         TypeFirst first_;
         TypeSecond second_;
     public:
-        // no way make pair without sending argument
+        // no way make pair without sending arguments
         Pair(TypeFirst first = TypeFirst(), TypeSecond second = TypeSecond()) : first_(first), second_(second) {} 
 
         Pair(Pair<TypeFirst, TypeSecond> const & otherPair) : first_(otherPair.GetFirst()), second_(otherPair.GetSecond()) {}
@@ -50,7 +50,7 @@ namespace MyNamespace
             second_ = otherSecond;
         }
 
-        bool operator==(Pair<TypeFirst, TypeSecond> const & other)
+        bool operator==(Pair<TypeFirst, TypeSecond> const & other) ///!=
         {
             return (this->first_ == other.first_) && (this->second_ == other.second_);
         }

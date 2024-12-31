@@ -7,7 +7,7 @@
 template< typename TypeKey, typename TypeValue>
 void PrintDictionary(Dictionary<TypeKey, TypeValue> & dictionary)
 {
-    for(auto it = dictionary.begin(); it != dictionary.end(); ++it)
+    for(auto it = dictionary.Begin(); it != dictionary.End(); ++it)
     {
         std::cout << it.GetArrayIndex()  <<". < " << (*it).GetFirst() << ", " <<  (*it).GetSecond() << ">" << "\n";
     }

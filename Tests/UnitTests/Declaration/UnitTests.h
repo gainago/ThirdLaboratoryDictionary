@@ -17,4 +17,6 @@ void IteratorTestsInt();
 
 void IteratorTestsMyString();
 
+void IteratorTestsErase();
+
 #endif //UNIT_TESTS_H

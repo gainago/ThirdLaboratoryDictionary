@@ -14,39 +14,40 @@ private:
     DynamicArray<LinkedList<MyNamespace::Pair<TypeKey const, TypeValue> > > array_; //занимает 8 байт на стеке
     int size_;
 
-    bool isNeedRecapacityUp()
+    bool isNeedRecapacityUp()//если есть вопрос то его с маленькой буквы
     {
         return size_ > fillFactor_*(array_.GetCapacity());
     }
 
-    bool isNeedRecapacityLess()
+    bool isNeedRecapacityLess() //grow and shrink
     {
         return size_ < fillFactor_*(array_.GetCapacity())/increaseFactor_;
     }
 
-    MyNamespace::Pair<bool, int> isListContains(int numberList, TypeKey const & key) const
+    MyNamespace::Pair<bool, int> isListContains(int numberList, TypeKey const & key) const //можно сразу дать лист и не дергать гет масссива
     {
-        for(int i = 0; i < array_.Get(numberList).GetLength(); i++)
-        {
-            if(array_.Get(numberList).Get(i).GetFirst() == key)
+       int position = 0;
+                          
+       for(auto it = array_.Get(numberList).ConstBegin(); it != array_.Get(numberList).ConstEnd(); ++it){
+            if((*it).GetFirst() == key)
             {
-                return MyNamespace::Pair<bool, int>(true, i);
+                return MyNamespace::Pair<bool, int>(true, position);
             }
-        }
+            position++;
+       }
         return MyNamespace::Pair<bool, int>(false, 0);
     }
 
     void Rebuild(int newSize)
     {
         DynamicArray<LinkedList<MyNamespace::Pair<TypeKey const, TypeValue> > > newArray(newSize);
-        Iterator it = this->begin();
-        for(;it != this->end(); ++it)
+        Iterator it = this->Begin();
+        for(;it != this->End(); ++it)
         {
             newArray[GetHashCode_((*it).GetFirst()) % newArray.GetCapacity()].Append(
                 MyNamespace::Pair<TypeKey const, TypeValue>((*it).GetFirst(), (*it).GetSecond()));
         }
-
-        //array_ = newArray;
+        
         array_.swap(newArray);
     }
 
@@ -66,16 +67,17 @@ public:
                                                                                              //что это уже конец словаря
         int isItEndIterator_; // это поле нужно чтобы при размере словаря итераторы работали нормально
         
+        //сделать bool
     public:
 
         Iterator(DynamicArray<LinkedList<MyNamespace::Pair<TypeKey const, TypeValue> > > & basedArray) 
             :   basedArray_(basedArray), arrayIndex_(0), listIterator_(nullptr) 
             {
-                for(; arrayIndex_ < basedArray_.GetCapacity(); ++arrayIndex_){
+                for(; arrayIndex_ < basedArray_.GetCapacity(); ++arrayIndex_){// size == 0
 
-                    listIterator_ = basedArray_[arrayIndex_].begin();
+                    listIterator_ = basedArray_[arrayIndex_].Begin();
 
-                    if(listIterator_ != basedArray_[arrayIndex_].end()){
+                    if(listIterator_ != basedArray_[arrayIndex_].End()){
                         isItEndIterator_ = 0;
                         return;
                     }
@@ -94,21 +96,21 @@ public:
                 throw "invalid index";
             }
 
-            if(listIterator_ != (basedArray_[arrayIndex_]).end())
+            if(listIterator_ != (basedArray_[arrayIndex_]).End())
             {
                 ++listIterator_;
 
-                if(listIterator_ != (basedArray_[arrayIndex_]).end()){
+                if(listIterator_ != (basedArray_[arrayIndex_]).End()){
                     return *this;
                 }
             }
 
             ++arrayIndex_;
 
-            for(; arrayIndex_ < basedArray_.GetCapacity(); arrayIndex_++)
+            for(; arrayIndex_ < basedArray_.GetCapacity(); arrayIndex_++) //переписать while
             {
-                listIterator_ = (basedArray_[arrayIndex_]).begin();
-                if(listIterator_ != (basedArray_[arrayIndex_]).end()){
+                listIterator_ = (basedArray_[arrayIndex_]).Begin();
+                if(listIterator_ != (basedArray_[arrayIndex_]).End()){
                     return *this;
                 }
             }
@@ -139,7 +141,7 @@ public:
                 && this->isItEndIterator_ == other.isItEndIterator_ && this->listIterator_ == other.listIterator_){
                 
                 return true;
-            }
+            } 
 
             return false;
         }
@@ -151,10 +153,10 @@ public:
         
     };
 
-    Iterator begin(){
+    Iterator Begin(){
         return Iterator(array_);
     }
-    Iterator end() { 
+    Iterator End() { 
         Iterator it(array_);
         it.listIterator_ = typename LinkedList<MyNamespace::Pair< const TypeKey, TypeValue> >::Iterator(nullptr);
         it.arrayIndex_ = array_.GetCapacity();
@@ -212,7 +214,7 @@ public:
 
     }
 
-    bool isContains(TypeKey const & key) const
+    bool isContains(TypeKey const & key)const
     {
         if(array_.GetCapacity() == 0){
             return false;
@@ -246,9 +248,15 @@ public:
         return array_.GetCapacity();
     }
 
-    
-
+    void Erase(Iterator& it)
+    {
+        if(it == End()){
+            throw "invalid position of iterator";
+        }
+        it.basedArray_[it.arrayIndex_].Erase(it.listIterator_);
+        size_--;
+    }
 };
-
+// i j k плохие названия для переменных, потому что когда их много мы теряемся где мы находимся
 
 #endif //DICTIONARY_H

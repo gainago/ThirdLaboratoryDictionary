@@ -15,7 +15,7 @@ int main(int argc, char** argv)
 
     
 
-    /*ConstructionTests();
+    ConstructionTests();
 
     AddTestsMyString();
 
@@ -29,10 +29,12 @@ int main(int argc, char** argv)
 
     IteratorTestsInt();
 
-    IteratorTestsMyString();*/
+    IteratorTestsMyString();
 
-    LoadTestsInt(argc, argv);
-    return StartUI(argc, argv);
+    IteratorTestsErase();
+
+    //LoadTestsInt(argc, argv);
+    //return StartUI(argc, argv);
     
 
 }
