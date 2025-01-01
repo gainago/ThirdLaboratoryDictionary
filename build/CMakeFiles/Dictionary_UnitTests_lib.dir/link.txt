@@ -1,1 +1,1 @@
-/usr/bin/clang++-14 -fPIC  -O0 -ggdb -g -shared -Wl,-soname,libDictionary_UnitTests_lib.so -o libDictionary_UnitTests_lib.so CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o 
+/usr/bin/c++ -fPIC  -O0 -ggdb -shared -Wl,-soname,libDictionary_UnitTests_lib.so -o libDictionary_UnitTests_lib.so CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o 

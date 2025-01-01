@@ -73,15 +73,15 @@ CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.c
 CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/GetHashCodes/GetHashCode.cpp
 CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o: CMakeFiles/Dictionary_GetHashCodes_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o -MF CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o.d -o CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/GetHashCodes/GetHashCode.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o -MF CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o.d -o CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/GetHashCodes/GetHashCode.cpp
 
 CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/GetHashCodes/GetHashCode.cpp > CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/GetHashCodes/GetHashCode.cpp > CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.i
 
 CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/GetHashCodes/GetHashCode.cpp -o CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/GetHashCodes/GetHashCode.cpp -o CMakeFiles/Dictionary_GetHashCodes_lib.dir/Definition/GetHashCodes/GetHashCode.cpp.s
 
 # Object files for target Dictionary_GetHashCodes_lib
 Dictionary_GetHashCodes_lib_OBJECTS = \

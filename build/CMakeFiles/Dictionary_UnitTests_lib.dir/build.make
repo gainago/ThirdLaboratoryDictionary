@@ -73,15 +73,15 @@ CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp
 CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Definition/UnitTests.cpp
 CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o: CMakeFiles/Dictionary_UnitTests_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o -MF CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o.d -o CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Definition/UnitTests.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o -MF CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o.d -o CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Definition/UnitTests.cpp
 
 CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Definition/UnitTests.cpp > CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Definition/UnitTests.cpp > CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.i
 
 CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Definition/UnitTests.cpp -o CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/UnitTests/Definition/UnitTests.cpp -o CMakeFiles/Dictionary_UnitTests_lib.dir/Tests/UnitTests/Definition/UnitTests.cpp.s
 
 # Object files for target Dictionary_UnitTests_lib
 Dictionary_UnitTests_lib_OBJECTS = \

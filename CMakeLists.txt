@@ -8,7 +8,7 @@ project(Dictionary VERSION 1 LANGUAGES CXX)
 #set(CMAKE_AUTOMOC ON)
 #set(CMAKE_AUTORCC ON)
 
-set(CMAKE_CXX_STANDARD 17 )
+set(CMAKE_CXX_STANDARD 20 )
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -34,7 +34,7 @@ include_directories(
 "${PROJECT_SOURCE_DIR}/Declaration/GetHashCodes"
 "${PROJECT_SOURCE_DIR}/Tests"
 "${PROJECT_SOURCE_DIR}/Tests/LoadTests/Declaration"
-"${PROJECT_SOURCE_DIR}/Qt"
+"${PROJECT_SOURCE_DIR}/Qt/GUI_Dictionary"
 )
 #------------------------------------Create Libraries
 
@@ -115,4 +115,4 @@ target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_UnitTests_lib )
 
 target_link_libraries(${PROJECT_NAME} "${PROJECT_SOURCE_DIR}/Tests/LoadTests/build/libloadTests.so")
 
-target_link_libraries(${PROJECT_NAME} "${PROJECT_SOURCE_DIR}/Qt/build/libGUI_Third_Laboratory.so")
+target_link_libraries(${PROJECT_NAME} "${PROJECT_SOURCE_DIR}/Qt/GUI_Dictionary/build/libGUI_Third_Laboratory.so")

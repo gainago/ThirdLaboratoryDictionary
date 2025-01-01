@@ -73,43 +73,43 @@ CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Comporators.cpp
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o: CMakeFiles/Dictionary_TypesOfData_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o -MF CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o.d -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Comporators.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o -MF CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o.d -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Comporators.cpp
 
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Comporators.cpp > CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Comporators.cpp > CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.i
 
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Comporators.cpp -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Comporators.cpp -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.s
 
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o: CMakeFiles/Dictionary_TypesOfData_lib.dir/flags.make
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/MyString.cpp
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o: CMakeFiles/Dictionary_TypesOfData_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o -MF CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o.d -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/MyString.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o -MF CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o.d -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/MyString.cpp
 
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/MyString.cpp > CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/MyString.cpp > CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.i
 
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/MyString.cpp -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/MyString.cpp -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.s
 
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o: CMakeFiles/Dictionary_TypesOfData_lib.dir/flags.make
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Person.cpp
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o: CMakeFiles/Dictionary_TypesOfData_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o -MF CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o.d -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Person.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o -MF CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o.d -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Person.cpp
 
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Person.cpp > CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Person.cpp > CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.i
 
 CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Person.cpp -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/TypesOfData/Person.cpp -o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.s
 
 # Object files for target Dictionary_TypesOfData_lib
 Dictionary_TypesOfData_lib_OBJECTS = \

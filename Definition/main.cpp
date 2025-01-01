@@ -33,9 +33,9 @@ int main(int argc, char** argv)
 
     // IteratorTestsErase();
 
-    TestLRUCache();
+    //TestLRUCache();
 
-    //LoadTestsInt(argc, argv);
+    LoadTestsInt(argc, argv);
     //return StartUI(argc, argv);
     
 

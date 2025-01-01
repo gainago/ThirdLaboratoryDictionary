@@ -73,15 +73,15 @@ CMakeFiles/Dictionary.dir/Definition/main.cpp.o: CMakeFiles/Dictionary.dir/flags
 CMakeFiles/Dictionary.dir/Definition/main.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp
 CMakeFiles/Dictionary.dir/Definition/main.cpp.o: CMakeFiles/Dictionary.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dictionary.dir/Definition/main.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary.dir/Definition/main.cpp.o -MF CMakeFiles/Dictionary.dir/Definition/main.cpp.o.d -o CMakeFiles/Dictionary.dir/Definition/main.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary.dir/Definition/main.cpp.o -MF CMakeFiles/Dictionary.dir/Definition/main.cpp.o.d -o CMakeFiles/Dictionary.dir/Definition/main.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp
 
 CMakeFiles/Dictionary.dir/Definition/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary.dir/Definition/main.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp > CMakeFiles/Dictionary.dir/Definition/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp > CMakeFiles/Dictionary.dir/Definition/main.cpp.i
 
 CMakeFiles/Dictionary.dir/Definition/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary.dir/Definition/main.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp -o CMakeFiles/Dictionary.dir/Definition/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/main.cpp -o CMakeFiles/Dictionary.dir/Definition/main.cpp.s
 
 # Object files for target Dictionary
 Dictionary_OBJECTS = \
@@ -97,7 +97,7 @@ Dictionary: libDictionary_Functions_lib.so
 Dictionary: libDictionary_GetHashCodes_lib.so
 Dictionary: libDictionary_UnitTests_lib.so
 Dictionary: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Tests/LoadTests/build/libloadTests.so
-Dictionary: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Qt/build/libGUI_Third_Laboratory.so
+Dictionary: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Qt/GUI_Dictionary/build/libGUI_Third_Laboratory.so
 Dictionary: CMakeFiles/Dictionary.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Dictionary"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dictionary.dir/link.txt --verbose=$(VERBOSE)

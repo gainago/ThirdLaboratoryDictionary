@@ -73,29 +73,29 @@ CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o: CMakeFil
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o: CMakeFiles/Dictionary_Functions_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o -MF CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o.d -o CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o -MF CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o.d -o CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp
 
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp > CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp > CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.i
 
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp -o CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/Abs.cpp -o CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/Abs.cpp.s
 
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o: CMakeFiles/Dictionary_Functions_lib.dir/flags.make
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o: CMakeFiles/Dictionary_Functions_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o -MF CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o.d -o CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o -MF CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o.d -o CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp
 
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp > CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp > CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.i
 
 CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp -o CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Definition/Functions/SetRandomInt.cpp -o CMakeFiles/Dictionary_Functions_lib.dir/Definition/Functions/SetRandomInt.cpp.s
 
 # Object files for target Dictionary_Functions_lib
 Dictionary_Functions_lib_OBJECTS = \
