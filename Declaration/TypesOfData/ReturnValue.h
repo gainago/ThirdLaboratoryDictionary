@@ -13,7 +13,7 @@ namespace MyNamespace
         MyNamespace::Pair<bool, Value> returnValue_;
     public:
 
-        ReturnValue(bool isOk, Value value) : returnValue_(isOk, value) {}
+        ReturnValue(bool isOk, Value const & value) : returnValue_(isOk, value) {}
 
         bool IsCorrect() const
         {

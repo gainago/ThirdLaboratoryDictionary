@@ -26,43 +26,43 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 91,
+				"line" : 92,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 95,
+				"line" : 96,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 107,
+				"line" : 108,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 110,
+				"line" : 111,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 113,
+				"line" : 114,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 115,
+				"line" : 116,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 117,
+				"line" : 118,
 				"parent" : 0
 			},
 			{
@@ -74,19 +74,19 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 46,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 57,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 81,
+				"line" : 82,
 				"parent" : 0
 			}
 		]
@@ -105,6 +105,10 @@
 				{
 					"backtrace" : 8,
 					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Sequence"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/ThirdLaboratoryDictionary/Declaration/Cache"
 				},
 				{
 					"backtrace" : 8,
@@ -157,20 +161,20 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "Dictionary_Functions_lib::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 4,
 			"id" : "Dictionary_GetHashCodes_lib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Dictionary_TypesOfData_lib::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 5,
 			"id" : "Dictionary_UnitTests_lib::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 2,
-			"id" : "Dictionary_TypesOfData_lib::@6890427a1f51a3e7e1df"
+			"backtrace" : 3,
+			"id" : "Dictionary_Functions_lib::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Dictionary::@6890427a1f51a3e7e1df",

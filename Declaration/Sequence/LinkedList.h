@@ -43,6 +43,16 @@ public:
                 return *this; 
             }
 
+            Iterator& operator--()     //prefix increment
+            {
+                if(currentNode_ == nullptr){
+                    throw "indev out of range";
+                }
+
+                currentNode_ = currentNode_->pPriv_;
+                return *this; 
+            }
+
             bool operator==(LinkedList<T>::Iterator const & other)
             {
                 return this->currentNode_ == other.currentNode_;
@@ -163,6 +173,7 @@ public:
 
     Iterator Begin() { return Iterator(head_);}
     Iterator End() { return Iterator(nullptr);}
+    Iterator Back() { return Iterator(tail_);}
 
     ConstIterator ConstBegin() const { return ConstIterator(head_);}
     ConstIterator ConstEnd() const { return ConstIterator(nullptr);}
@@ -330,6 +341,10 @@ public:
 
     void Prepend(T const & item)
     {
+        if(head_ == nullptr){
+            this->Append(item);
+            return;
+        }
         Node *newHead = new Node(item, nullptr, this->head_);
         this->head_ = newHead;
         this->size_++;
@@ -443,7 +458,7 @@ public:
         }
         return result->data_;
     }
-    void MoveBack(Iterator it) // от этого метода можно добиться ошибки связанной с size_(передать итератор не от этого объекта)
+    /*void MoveBack(Iterator it) // от этого метода можно добиться ошибки связанной с size_(передать итератор не от этого объекта)
                                 // исправить это можно совершая линейный обход но для текущей задачи это неоптимально, или в GetLength обходить список
     {
         Node* currentNode = it.currentNode_;
@@ -474,12 +489,7 @@ public:
         currentNode->pPriv_ = tail_;
         currentNode->pNext_ = nullptr;
 
-        
-
-        
-
-
-    }
+    }*/
 };
 
 #endif

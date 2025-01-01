@@ -7,7 +7,7 @@
 #include "Dictionary.h"
 
 template <typename Key, typename Value>
-class LRUChache{
+class LRUCache{
 private:
 
     MyNamespace::ReturnValue<Value> (*GetValue_)(Key const &);
@@ -17,8 +17,9 @@ private:
     unsigned int capacity_;
 public:
 
-    LRUChache(MyNamespace::ReturnValue<Value> (*GetValue)(Key const &), unsigned int capacity) :
+    LRUCache(MyNamespace::ReturnValue<Value> (*GetValue)(Key const &), unsigned int capacity, int (*GetHashCode)(Key const &)) :
                                                                                     GetValue_(GetValue),
+                                                                                    dictionary_(GetHashCode),
                                                                                     capacity_(capacity)
     {
         if(capacity == 0){
@@ -29,10 +30,19 @@ public:
     {
         if(dictionary_.isContains(key)){ //chache hit
             MyNamespace::Pair<Value, typename LinkedList<Key>::Iterator> cachedElement = dictionary_.Get(key);
+
             keysOfCachedElements_.Erase(cachedElement.GetSecond()); // reload record
             keysOfCachedElements_.Append(key);
 
-            return cachedElement.GetFirst();
+            dictionary_.Remove(key);
+
+            typename LinkedList<Key>::Iterator newIt = keysOfCachedElements_.Back(); 
+
+            MyNamespace::Pair<Value, typename LinkedList<Key>::Iterator> newPair(cachedElement.GetFirst(), newIt);
+
+            dictionary_.Add(key, newPair);
+
+            return MyNamespace::ReturnValue<Value>(1, cachedElement.GetFirst());
         }
                         //cache hit
         MyNamespace::ReturnValue<Value> getNewValue = GetValue_(key);
@@ -51,7 +61,7 @@ public:
             MyNamespace::Pair<Value, typename LinkedList<Key>::Iterator>
             (getNewValue.GetValue(), keysOfCachedElements_.Begin()));
     
-
+        return MyNamespace::ReturnValue<Value>(1, getNewValue.GetValue());
     }
 };
 

@@ -5,6 +5,8 @@
 #include "GetHashCode.h"
 #include "time.h"
 #include "PrintDictionary.h"
+#include "LRUCache.h"
+#include "ReturnValue.h"
 
 void ConstructionTests()
 {
@@ -259,5 +261,35 @@ void IteratorTestsErase()
             }
         }
     }
+    
+}
+
+MyNamespace::ReturnValue<int> Get(int const & position)
+{
+    static int array[5] = {10, 20, 30, 40, 50};
+
+    if(position < 5){
+        return MyNamespace::ReturnValue<int>(1, array[position]);
+    }
+    return MyNamespace::ReturnValue<int>(1, int());
+}
+
+void TestLRUCache()
+{
+    int array[5] = {10, 20, 30, 40, 50};
+
+    
+
+    DynamicArray<int> dArray(array, 5);
+
+    LRUCache<int, int> cache(Get, 10, GetHashCodeInt);
+
+    assert(cache.Get(0).GetValue() == 10);
+    assert(cache.Get(1).GetValue() == 20);
+    assert(cache.Get(2).GetValue() == 30);
+    assert(cache.Get(3).GetValue() == 40);
+    assert(cache.Get(4).GetValue() == 50);
+
+
     
 }

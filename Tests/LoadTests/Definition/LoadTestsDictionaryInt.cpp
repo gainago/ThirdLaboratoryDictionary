@@ -11,7 +11,7 @@
 #include "SetRandomInt.h"
 
 
-int LoadTestsInt(int argc, char** argv)
+int LoadTestsDictionaryInt(int argc, char** argv)
 {
     QApplication app(argc, argv);
 

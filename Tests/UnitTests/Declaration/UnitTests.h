@@ -19,4 +19,6 @@ void IteratorTestsMyString();
 
 void IteratorTestsErase();
 
+void TestLRUCache();
+
 #endif //UNIT_TESTS_H

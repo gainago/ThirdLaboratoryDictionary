@@ -5,6 +5,8 @@
 #include "LinkedList.h"
 #include "Pair.h"
 
+#include <iostream>
+
 template< typename TypeKey, typename TypeValue> class Dictionary //вся работа с памятью делегирована на array
 {
 private:
@@ -191,6 +193,9 @@ public:
             }
             Rebuild(array_.GetCapacity() * increaseFactor_);
         }
+        //for(auto it = this->Begin(); it != this->End(); ++it){
+        //    std::cout << (*it).GetFirst() << std::endl;
+        //}
     }
 
     void Remove(TypeKey const & key)

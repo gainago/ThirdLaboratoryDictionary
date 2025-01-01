@@ -29,6 +29,7 @@ include_directories(
 #"/home/goshagaina/Qwt/qwt-6.3.0/src"
 
 "${PROJECT_SOURCE_DIR}/Declaration/Sequence"
+"${PROJECT_SOURCE_DIR}/Declaration/Cache"
 "${PROJECT_SOURCE_DIR}/Declaration/Dictionary"
 "${PROJECT_SOURCE_DIR}/Declaration/GetHashCodes"
 "${PROJECT_SOURCE_DIR}/Tests"

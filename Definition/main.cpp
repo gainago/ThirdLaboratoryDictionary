@@ -15,23 +15,25 @@ int main(int argc, char** argv)
 
     
 
-    ConstructionTests();
+    // ConstructionTests();
 
-    AddTestsMyString();
+    // AddTestsMyString();
 
-    AddTestsInt();
+    // AddTestsInt();
 
-    RemoveTestsInt();
+    // RemoveTestsInt();
 
-    RemoveTestsMyString();
+    // RemoveTestsMyString();
 
-    GetTestsInt();
+    // GetTestsInt();
 
-    IteratorTestsInt();
+    // IteratorTestsInt();
 
-    IteratorTestsMyString();
+    // IteratorTestsMyString();
 
-    IteratorTestsErase();
+    // IteratorTestsErase();
+
+    TestLRUCache();
 
     //LoadTestsInt(argc, argv);
     //return StartUI(argc, argv);
