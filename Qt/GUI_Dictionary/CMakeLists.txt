@@ -62,6 +62,29 @@ include_directories(
             ${LABA_PATH}/Plot/Declaration/realtimeplot.h
 
         )
+        
+add_executable(GUI_Third_LaboratoryExecutable
+            ${PROJECT_SOURCES}
+            main.cpp
+            enumclass.h enumclass.cpp
+            uiclass.h uiclass.cpp syntaxhighlighter.h syntaxhighlighter.cpp directorytablemodel.h directorytablemodel.cpp ScrollZoomer.h ScrollZoomer.cpp mainwindow.ui mainwindow.h mainwindow.cpp StartUI.cpp enumclass.h enumclass.cpp CMakeLists.txt.user CMakeLists.txt
+            memberofmodel.h memberofmodel.cpp
+            getqstringfromnewwidget.h getqstringfromnewwidget.cpp
+            ScrollZoomer.h ScrollZoomer.cpp ScrollBar.h ScrollBar.cpp
+            gethashqstring.cpp
+            gethashqstring.h
+            checkqstring.cpp
+            checkqstring.h
+            checkqstringkey.h
+            checkqstringkey.cpp
+            ${LABA_PATH}/Plot/Declaration/realtimeplot.h
+            ${LABA_PATH}/Plot/Definition/realtimeplot.cpp
+
+        )
+
+#GUI_Third_LaboratoryExecutable
+
+target_link_libraries(GUI_Third_LaboratoryExecutable PRIVATE Qt5::Widgets)
 
 target_link_libraries(GUI_Third_Laboratory PRIVATE Qt5::Widgets)
 
@@ -70,9 +93,20 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 ${PROJECT_NAME}_TypesOfData_lib
 )
 
+target_link_libraries(GUI_Third_LaboratoryExecutable PRIVATE
+${PROJECT_NAME}_TypesOfData_lib
+)
+
 target_link_libraries(${PROJECT_NAME} PRIVATE
+                        #"${LABA_PATH}/Plot/build/libplot_lib.so"
+                    "${PROJECT_SOURCE_DIR}/${LABA_PATH}/Plot/build/libplot_lib.so")
+                    
+target_link_libraries(GUI_Third_LaboratoryExecutable PRIVATE
                         #"${LABA_PATH}/Plot/build/libplot_lib.so"
                     "${PROJECT_SOURCE_DIR}/${LABA_PATH}/Plot/build/libplot_lib.so")
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
+                                         "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0")
+                                         
+target_link_libraries(GUI_Third_LaboratoryExecutable PRIVATE
                                          "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0")

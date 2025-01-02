@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -O0 -ggdb -shared -Wl,-soname,libDictionary_TypesOfData_lib.so -o libDictionary_TypesOfData_lib.so CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o CMakeFiles/Dictionary_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o 
